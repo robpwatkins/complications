@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+
+#circle,
+#rectangle {
+  background-color: white;
+  border: 1px solid white;
+}
+
+#circle {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  box-shadow: inset -10px 7px 10px black;
+}
+
+#rectangle {
+  width: 900px;
+  height: 450px;
+  box-shadow: inset -10px 10px 10px black;
+}
+
+#top-left-notch {
+  width: 15px;
+  height: 27px;
+  margin-left: -31px;
+  background-color: black;
+  box-shadow: 20px 17px 5px white;
+  transform: rotate(320deg)
+}
+
+#bottom-right-notch {
+  width: 15px;
+  height: 27px;
+  margin: 402px 0 0 913px;
+  background-color: black;
+  box-shadow: -26px -17px 5px white;
+  transform: rotate(313deg)
+}
